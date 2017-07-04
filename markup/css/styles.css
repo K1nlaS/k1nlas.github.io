@@ -427,3 +427,79 @@ header img {
 	text-align: center;
 	margin-top: 2rem;
 }
+
+/*___________________REVIEWS BOX___________________*/
+
+.reviews {
+	background-color: #ae1914;
+	height: 78.9rem;
+}
+
+.wrapper-reviews {
+	
+}
+
+.reviews-slider {
+	width: 92rem;
+	height: 78.9rem;
+	background-color: rgba(8, 4, 4, 0.788);
+	margin: 0 auto;
+	padding-top: 10.8rem;
+}
+
+.reviews-slider .item div:first-child {
+	width: 11.259rem;
+	height: 11.259rem;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-bottom: 1.4rem;
+}
+
+.reviews-slider .item div:nth-child(2) {
+	margin-bottom: 11.5rem;
+}
+
+.reviews-slider .item h2 {
+	color: #ff7975;
+	font-size: 2.4rem;
+	font-family: 'Gilroy-Light';
+	line-height: 1.6rem;
+	letter-spacing: 0.16em;
+	text-align: center;
+}
+
+.reviews-slider .item p {
+	color: #f5f4f5;
+	font-size: 3rem;
+	text-align: center;
+	line-height: 3.6rem;
+	width: 79.5rem;
+	height: 27.8rem;
+	margin: 0 auto;
+	margin-top: 4rem;
+}
+
+.reviews-slider .item div:nth-child(3) {
+	margin: 0 auto;
+	width: 34.9rem;
+	height: 7.8rem; 
+}
+
+.reviews-slider .item div:nth-child(3) a {
+	display: flex;
+	width: 34.9rem;
+	height: 7.8rem;
+	border: 1px solid #f5f4f5;
+	color: #f5f4f5;
+	font-size: 2.37rem;
+	letter-spacing: 0.16em;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	transition: background-color 0.3s ease-out, border 0.3s ease-out;
+}
+
+.reviews-slider .item div:nth-child(3) a:hover {
+	background-color: #040000;
+	border: none;
+}

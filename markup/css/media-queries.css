@@ -102,3 +102,18 @@
 }
 
 }
+
+@media screen and (max-width: 1024px) {
+
+/*___________________ABOUT US BOX___________________*/
+
+.man {
+	max-width: 100%;
+}
+
+.hands {
+	max-width: 100%;
+}
+
+
+}
