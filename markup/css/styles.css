@@ -503,3 +503,123 @@ header img {
 	background-color: #040000;
 	border: none;
 }
+
+
+/*___________________FORM BOX___________________*/
+
+.form {
+	height: 74rem;
+	background-color: #2f2f2f;
+}
+
+.wrapper-form {
+	padding-top: 8rem;
+}
+
+.wrapper-form div:first-child {
+	margin-bottom: 5rem;
+}
+
+.form h2 {
+	color: rgb(208, 206, 206);
+	font-size: 3.9rem;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	margin-bottom: 2.4rem;
+}
+
+.form h2 span {
+	color: #d41b1b;
+}
+
+.form p {
+	color: rgba(245, 244, 245, 0.612);
+	font-size: 2.4rem;
+	text-align: center;
+	line-height: 3.2rem;
+	width: 66.384rem;
+	height: 6.799;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.wrapper-form .form-holder {
+	display: flex;
+	justify-content: center;
+}
+
+.form-holder label {
+	color: #b2b2b2;
+	font-size: 1.7rem;
+	font-family: 'Gilroy-Light';
+	letter-spacing: 0.05;
+	line-height: 1.6rem;
+}
+
+.form-holder input {
+	margin-top: 1.6rem;
+	width: 41rem;
+	height: 5.79rem;
+	border-width: 1px;
+  	border-color: rgb(149, 149, 149);
+  	border-style: solid;
+  	background-color: rgb(192, 188, 188);
+  	color: #585454;
+  	font-family: 'Roboto-Regular';
+  	font-size: 2.4rem;
+  	padding-left: 2rem;
+  	margin-bottom: 3rem;
+}
+
+.form-holder input[id="email"] {
+	margin-bottom: 3.2rem;
+}
+
+.form-holder input[type="submit"] {
+	background-color: rgb(207, 11, 25);
+  	box-shadow: 0px 10px 21px 0px rgba(207, 11, 25, 0.33);
+  	width: 40.999;
+  	height: 8.4rem;
+  	margin: 0;
+	border: 1px solid #cf0b19;
+	color: #f6e7e7;
+	letter-spacing: 0.08em;
+	font-size: 2.7rem;
+	font-family: 'Gilroy-Light';
+	text-align: center;
+}
+
+/*___________________FOOTER BOX___________________*/
+
+footer {
+	height: 8rem;
+	background-color: #000000;
+}
+
+#footer-menu {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#footer-menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#footer-menu ul li {
+	display: inline;
+	margin: 0 2rem;
+}
+
+#footer-menu ul li a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Gilroy-Light';
+	font-size: 1.7rem;
+	color: #f4ece5;
+	font-weight: bold;
+}

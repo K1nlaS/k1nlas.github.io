@@ -78,6 +78,14 @@
 	margin-top: 3.2rem;
 }
 
+/*___________________FORM BOX___________________*/
+
+.form {
+	height: unset;
+	max-height: 100%;
+	padding-bottom: 5rem;
+}
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -114,6 +122,5 @@
 .hands {
 	max-width: 100%;
 }
-
 
 }
